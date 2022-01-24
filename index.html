@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSS grids</title>
+<style>
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+.container > div {
+    background: #eee;
+    padding: 1em;
+}
+
+</style>
 </head>
 <body>
 <div class='container'>
-<div class='image1'>
-    <img src='assets/avocadotoast.jpg'/>
+<div class='item1'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus purus, vehicula eget erat ut, rutrum finibus dui. Aenean non lobortis ante. Aliquam et pellentesque tellus, non sodales elit. Nullam eget nisl a libero vestibulum commodo ac nec elit. Sed ac dignissim leo. Donec ac mauris elementum, porttitor elit id, tempor nulla. Suspendisse enim diam, tempor sit amet ullamcorper a, venenatis eget nisl. Proin sed lacus gravida, imperdiet eros sit amet, feugiat orci. Proin maximus, velit et sagittis aliquet, lacus felis tempus lorem, id semper erat nulla at dolor. Nulla sit amet tempor velit.
 </div>
-<div class='image2'>
-    <img src='assets/salad.jpg'/>
+<div class='item2'>
+    Donec id ipsum eget nisl rhoncus placerat sit amet in purus. Vivamus libero lectus, vestibulum ac metus non, congue rutrum justo. Phasellus gravida erat nec nulla commodo, eget cursus lectus mollis. Sed non dui nibh. Aenean sollicitudin erat vel purus venenatis porta. Curabitur sit amet lorem purus. Maecenas blandit risus at eros pharetra, eu fermentum tellus placerat.
 </div>
-<div class='image3'>
-    <img src='assets/beef.jpg'/>
+<div class='item3'>
+    Praesent volutpat congue ante. Curabitur vel lectus nulla. Quisque fringilla sem non tellus condimentum pellentesque. Nunc sed eros et lacus ultrices mattis. Nulla interdum ligula id mattis semper. Vivamus pretium elit nec gravida pharetra. Nunc porta blandit sagittis. Fusce ac ultricies sem. Aenean ultrices luctus dui, eu vestibulum urna sodales ac. Pellentesque viverra, quam in vestibulum mollis, lectus augue laoreet nulla, vel bibendum nunc metus lobortis arcu. Donec condimentum nisi pulvinar, lobortis leo et, ullamcorper ex.
 </div>
+<div class='item4'>
+    Sed dignissim condimentum convallis. In nunc nibh, sodales at pharetra ac, semper quis tortor. Proin luctus ante a odio aliquam sodales. Morbi accumsan venenatis lorem, et commodo purus aliquet at. Integer nibh mi, tempor tincidunt varius eget, molestie et purus. Maecenas interdum convallis nisi, at vulputate erat porta sed. Vestibulum in ipsum cursus, bibendum risus eu, finibus risus. Praesent eleifend quam vitae sem suscipit vulputate. Suspendisse volutpat dolor eu tincidunt tincidunt. Sed mattis luctus tempus.
+</div>
+<div class='item5'>
+    Nunc id bibendum nibh. Mauris pharetra, purus quis tincidunt bibendum, orci diam efficitur risus, quis consectetur erat risus vel mauris. Morbi porta felis libero, id mollis quam maximus laoreet. Donec quis eros non enim egestas vestibulum. Proin ante eros, aliquet ac lacinia vitae, scelerisque eget tortor. Proin consequat libero ante, in lacinia urna eleifend at. Curabitur ex purus, faucibus eget feugiat a, condimentum at ex. In vestibulum bibendum mauris non tincidunt. Fusce iaculis dapibus est, ac blandit nisi dictum ut. Ut elementum, erat quis lobortis elementum, massa metus sollicitudin velit, vel malesuada enim purus ut ligula. Ut id dignissim sem. Sed at odio a tortor faucibus consectetur. Nulla efficitur vitae magna eu dictum. Proin feugiat purus in ipsum lacinia, quis hendrerit enim ultrices. Mauris vel pharetra dolo
+</div>
+<div class='item6'>
+    Praesent volutpat congue ante. Curabitur vel lectus nulla. Quisque fringilla sem non tellus condimentum pellentesque. Nunc sed eros et lacus ultrices mattis. Nulla interdum ligula id mattis semper. Vivamus pretium elit nec gravida pharetra. Nunc porta blandit sagittis. Fusce ac ultricies sem. Aenean ultrices luctus dui, eu vestibulum urna sodales ac. Pellentesque viverra, quam in vestibulum mollis, lectus augue laoreet nulla, vel bibendum nunc metus lobortis arcu. Donec condimentum nisi pulvinar, lobortis leo et, ullamcorper ex.
+</div>
+<div class='item7'>
+    Donec id ipsum eget nisl rhoncus placerat sit amet in purus. Vivamus libero lectus, vestibulum ac metus non, congue rutrum justo. Phasellus gravida erat nec nulla commodo, eget cursus lectus mollis. Sed non dui nibh. Aenean sollicitudin erat vel purus venenatis porta. Curabitur sit amet lorem purus. Maecenas blandit risus at eros pharetra, eu fermentum tellus placerat.
+</div>
+<div class='item8'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus purus, vehicula eget erat ut, rutrum finibus dui. Aenean non lobortis ante. Aliquam et pellentesque tellus, non sodales elit. Nullam eget nisl a libero vestibulum commodo ac nec elit. Sed ac dignissim leo. Donec ac mauris elementum, porttitor elit id, tempor nulla. Suspendisse enim diam, tempor sit amet ullamcorper a, venenatis eget nisl. Proin sed lacus gravida, imperdiet eros sit amet, feugiat orci. Proin maximus, velit et sagittis aliquet, lacus felis tempus lorem, id semper erat nulla at dolor. Nulla sit amet tempor velit.
+</div>
+<div class='item9'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus purus, vehicula eget erat ut, rutrum finibus dui. Aenean non lobortis ante. Aliquam et pellentesque tellus, non sodales elit. Nullam eget nisl a libero vestibulum commodo ac nec elit. Sed ac dignissim leo. Donec ac mauris elementum, porttitor elit id, tempor nulla. Suspendisse enim diam, tempor sit amet ullamcorper a, venenatis eget nisl. Proin sed lacus gravida, imperdiet eros sit amet, feugiat orci. Proin maximus, velit et sagittis aliquet, lacus felis tempus lorem, id semper erat nulla at dolor. Nulla sit amet tempor velit.
+</div>
+
 </div>
 </body>
 </html>
